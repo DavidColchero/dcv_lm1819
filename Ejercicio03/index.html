@@ -3,34 +3,47 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tablas</title>
+    <title>Ejercicio03</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <table style="border: 1px solid blue; border-collapse: collapse; padding: 15px ">
-        <caption>Días de la semana</caption>
+    <table style="border: 1px solid black; border-collapse: collapse; padding: 15px; width: 70%">
+    <caption>Tabla comparativa de las características técnicas de los reproductores MP3</caption>
         <thead>
-            <tr style="border: 1px solid orange">
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miércoles</th>
+            <tr>
+                <th style="border: 1px solid black; text-align: center"></th>
+                <th colspan="3" style="border: 1px solid black"><img src="mp3-mini.jpg" width="100" height="100">MP3 Mini</th>
+                <th colspan="2" style="border: 1px solid black"><img src="mp3-grande.png">MP3 Grande</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="2" style="border: 1px solid black">1</td>
-                <td colspan="2" style="border: 1px solid black">2</td>
+                <td style="border: 1px solid black; text-align: center; font-weight: bold; padding: 30px">Capacidad de almacenamiento</td>
+                <td style="border: 1px solid black; text-align: center">4GB (4.000 canciones)</td>
+                <td style="border: 1px solid black; text-align: center">8GB (2.000 canciones)</td>
+                <td style="border: 1px solid black; text-align: center">16GB (4.000 canciones)</td>
+                <td style="border: 1px solid black; text-align: center">30GB (7.500 canciones)</td>
+                <td style="border: 1px solid black; text-align: center">80GB (20.000 canciones)</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; text-align: center; font-weight: bold; padding: 30px">Colores</td>
+                <td style="border: 1px solid black; text-align: center"></td>
+                <td style="border: 1px solid black; text-align: center"></td>
+                <td style="border: 1px solid black; text-align: center"></td>
+                <td colspan="2" style="border: 1px solid black; text-align: center"></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; text-align: center; font-weight: bold; padding: 30px">Pantalla</td>
+                <td colspan="3" style="border: 1px solid black; text-align: center">LCD de 3 cm (diagonal) con retroiluminación</td>
+                <td colspan="2" style="border: 1px solid black; text-align: center">LCD de 6 cm (diagonal) con retroiluminación</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Tiempo de carga</td>
+                <td colspan="3" rowspan="2">Unas 3 horas</td>
+                <td>Unas 4 horas</td>
             </tr>
         </tbody>
-        <tfoot>
-            <tr>
-                <td>100</td>
-                <td>200</td>
-                <td>300</td>
-
-            </tr>
-        </tfoot>
     </table>
-    
+
 </body>
 </html>
