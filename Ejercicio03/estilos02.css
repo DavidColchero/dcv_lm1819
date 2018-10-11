@@ -1,0 +1,32 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #9fda9a;
+}
+
+#modulos {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+#recreo {
+    border: 1px solid black;
+    text-align: center;
+    background-color: #f3d9d9;
+}
+
+#horas {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: #9fda9a;
+}
