@@ -1,5 +1,7 @@
 table {
     border: 1px solid black;
+    width: 20%;
+    height: ;
 }
 
 th {
@@ -8,4 +10,27 @@ th {
 
 td {
     border: 1px solid black;
+}
+
+.tabla_interior {
+    float: top;
+    float: right;
+    width: 27%;
+    text-align: center;
+    background: #CCCCCC;
+}
+
+.gris {
+    background: #DDDDDD;
+    color: blue;
+}
+
+.gris_oscuro {
+    background: #666666;
+    color: white;
+}
+
+.azul {
+    background: #358391;
+    color: blue;
 }
