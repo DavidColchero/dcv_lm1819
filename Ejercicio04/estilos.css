@@ -1,0 +1,47 @@
+body {
+    background-color: cyan;
+    margin: 0px;
+    margin-left: 5px;
+    padding: 0px;
+}
+
+#caption {
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #005a66;
+    white-space: pre;
+}
+
+#cajas {
+    background-color: #00b4cc;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    float: left;
+    border: 2px #005a66 dashed;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nueva_linea {
+    background-color: #00b4cc;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    float: left;
+    border: 2px #005a66 dashed;
+    clear: both;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
