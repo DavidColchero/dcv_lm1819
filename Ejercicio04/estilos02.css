@@ -1,17 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: #997366;
     margin: 0px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
+    margin-top: 10px;
+}
+
+div#introduccion p {
+    text-align: justify;
 }
 
 #introduccion {
     background-color: #9D847B;
-    width: 100%;
+    width: 95%;
     height: 20%;
+    margin-bottom: 10px;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    margin: 0px auto;
+    margin-bottom: 10px;
 }
 
 #titulo {
@@ -19,6 +28,43 @@ body {
     text-align: center;
 }
 
-#bio {
-    text-align: justify;
+#marco {
+    border: 1px solid white;
+    width: 95%;
+    height: 500px;
+    margin: 0px auto;
+    padding-top: 8px;
 }
+
+#capitalismo {
+    background-color: #b39f98;
+    width: 98%;
+    height: 250px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#div_capitalismo {
+    background-color: white;
+}
+
+div#capitalismo div h1 {
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+#parrafos {
+    border: 5px solid #422b24;
+    width: 80%;
+    height: 40px;
+    margin: 0px auto;
+    margin-top: 10px;
+    color: white;
+}
+
+#parrafos p {
+    margin: 10px;
+    margin-left: 5px;
+}
+
