@@ -3,7 +3,8 @@ body {
 }
 
 @font-face {
-    src: 
+    font-family: "AqualitaItalic";
+    src: url("fonts/AqualitaItalic.ttf") format("truetype");
 }
 
 h1 {
@@ -15,4 +16,61 @@ h1 {
     padding-top: 10px;
     padding-left: 5px;
     padding-bottom: 30px;
+}
+
+div#marco {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 50px;
+    border-left: 4px solid #FF6633;
+    border-right: 4px solid #FF6633;
+}
+
+div#escritores {
+    background-color: #FFD9CC;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding-bottom: 35px;
+}
+
+div#fernan {
+    background-color: white;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+div#bio {
+    width: 80%;
+    border-right: 4px solid #FF6633;
+    margin-right: 0px;
+    padding-left: 3px;
+}
+
+div#imagen {
+    margin: 0px;
+    width: 150px;
+    height: 200px;
+    float: right;
+
+}
+
+div#escritores h2 {
+    font-size: 28px;
+    background-color: #FF6633;
+    color: white;
+}
+
+div#fernan h3 {
+    font-size: 24px;
+    background-color: #FF6633;
+    color: white;
+}
+
+div#bio p {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
