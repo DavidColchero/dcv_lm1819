@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formularios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif">
+    <form action="gestiondatos.jsp" method="GET">
+        <label for="nombre">Nombre de usuario: </label><input type="text" value="" name="nombre"
+        placeholder="Usuario" size="20" maxlength="20" id="nombre" pattern="[A-Z]{5}[0-9]{3}"/><!--Value hace que ya haya algo escrito por defecto-->
+        <br/>
+        <label for="pass">Contraseña: </label><input type="password" name="pass" placeholder="Contraseña"/>
+        <br/>
+        <label for="">Alumno?</label><input type="radio" id="pregunta" name="pregunta" />
+        <br/>
+        <label for="provincias">Provincias</label>
+        <select name="provincias" id="provincias">
+            <option value="SE">Sevilla</option>
+            <option value="CA">Cádiz</option>
+            <option value="HU">Huelva</option>
+        </select>
+        <br/>
+        <input type="submit" value="Enviar"/>
+        <br/>
+        <input type="reset" value="Borrar"/>
+        <br/>
+        <br/>
+        <br/>
+    </form>
+    
+</body>
+</html>
