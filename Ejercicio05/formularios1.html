@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Formulario 1</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="" />
-</head>
-<body>
-    
-    
-</body>
-</html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="" />
+    </head>
+    <body>
+        <form action="script.jsp" method="POST">
+            <ul>
+                <li><label for="nombre">Nombre: </label>
+                    <input type="text" value="" name="nombre" id="nombre"
+                        required="required"/></li>
+                <br/>
+                <li><label for="correo">Correo electrónico: </label>
+                    <input type="email" value="" name="correo" id="correo"
+                        required="required"/></li>
+                <br/>
+                <li><label for="url">URL: </label>
+                    <input type="url" value="" name="url" id="url"
+                        placeholder="Escribe la URL de tu página"/></li>
+                <br/>
+                <li><label for="f/h">Fecha y hora: </label>
+                    <input type="datetime" value="" name="f/h" id="f/h"/></li>
+                <br/>
+                <li><label for="mes">Mes: </label>
+                    <input type="month" value="" name="mes" id="mes"/></li>
+                <br/>
+                <li><label for="num">Número (min -10, max 10): </label>
+                    <input type="number" value="" name="num" id="num"
+                        min="-10" max="10"/></li>
+                <br/>
+                <li><label for="telef">Teléfono: </label>
+                    <input type="tel" value="" name="telef" id="telef"/></li>
+                <br/>
+                <li><label for="busc">Término de búsqueda: </label>
+                    <input type="search" value="" name="busc" id="busc"/></li>
+                <br/>
+                <li><label for="fav_color">Color favorito: </label>
+                    <input type="color" value="" name="fav_color" id="fav_color"/></li>
+                <br/>
+            </ul>
+            <input type="submit" value="Enviar"/>
+        </form>
+
+            </body>
+        </html>
