@@ -3,18 +3,18 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Formulario 1</title>
+        <title>Formulario de prueba de HTML5</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="" />
     </head>
-    <body>
-        <form action="script.jsp" method="POST">
+    <body style="font-family: Arial, Helvetica, sans-serif">
+        <form action="" method="GET">
             <ul>
-                <li><label for="nombre">Nombre: </label>
+                <li><label for="nombre">Nombre: </label></td>
                     <input type="text" value="" name="nombre" id="nombre"
                         required="required"/></li>
                 <br/>
-                <li><label for="correo">Correo electrónico: </label>
+                <li><label for="correo">Correo electrónico: </label></td>
                     <input type="email" value="" name="correo" id="correo"
                         required="required"/></li>
                 <br/>
@@ -23,10 +23,13 @@
                         placeholder="Escribe la URL de tu página"/></li>
                 <br/>
                 <li><label for="f/h">Fecha y hora: </label>
-                    <input type="datetime" value="" name="f/h" id="f/h"/></li>
+                    <input type="datetime-local" value="" name="f/h" id="f/h"/></li>
                 <br/>
                 <li><label for="mes">Mes: </label>
                     <input type="month" value="" name="mes" id="mes"/></li>
+                <br/>
+                <li><label for="semana">Semana: </label>
+                    <input type="week" value="" name="semana" id="semana"/></li>
                 <br/>
                 <li><label for="num">Número (min -10, max 10): </label>
                     <input type="number" value="" name="num" id="num"
