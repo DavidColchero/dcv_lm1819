@@ -1,6 +1,4 @@
 * {
-    margin: 0px;
-    padding: 0px;
     font-family: Arial;
 }
 
@@ -12,48 +10,28 @@ header, nav, section, article, aside, footer {
     display: block;
 }
 
-article {
-    background: #FFBA90;
-    width: 70%;
-}
-
-article h2 {
-    padding: 20px;
-    padding-left: 0px;
-    font-size: 30px;
-}
-
 #general {
+    background: #FFF8C0;
     border: 4px solid black;
-    margin: 20px;
 }
 
 #cabecera {
     background: #ABEAAB;
-    padding: 30px;
 }
 
 #menu {
     background: #A6CEE5;
-    padding: 15px;
 }
 
 #menu li {
     display: inline-block;
 }
 
-#fondo {
-    background: #FFF8C0;
-    padding: 20px;
-}
-
 #ruta {
     background: #F8B48A;
     border: 2px solid #EDA97F;
-    padding: 8px;
 }
 
-#relleno {
-    background: #C98258;
-    height: 150px;
+#contenido header {
+    background: #FFBA90;
 }
