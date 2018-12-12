@@ -14,13 +14,27 @@ header, nav, section, article, aside, footer {
 
 article {
     background: #FFBA90;
-    width: 70%;
+    width: 60%;
+    float: left;
 }
 
 article h2 {
     padding: 20px;
     padding-left: 0px;
     font-size: 30px;
+}
+
+article p {
+    padding: 20px;
+    color: #8B463C;
+}
+
+#contenido h2 {
+    color: #6E8A7C;
+}
+
+#ruta {
+    color: #6E8A7C;
 }
 
 #general {
@@ -33,18 +47,35 @@ article h2 {
     padding: 30px;
 }
 
+#cabecera h1 {
+    font-weight: normal;
+    color: #880015;
+}
+
+#cabecera p {
+    color: #6BA56B;
+}
+
 #menu {
     background: #A6CEE5;
-    padding: 15px;
+    /*padding: 15px;*/
 }
 
 #menu li {
     display: inline-block;
+    padding: 15px;
+    border-right: 1px solid #8CB4CB;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #4C749A;
 }
 
 #fondo {
     background: #FFF8C0;
     padding: 20px;
+    overflow: hidden;
 }
 
 #ruta {
@@ -56,4 +87,16 @@ article h2 {
 #relleno {
     background: #C98258;
     height: 150px;
+    border-radius: 13px;;
+}
+
+#redes li {
+    display: inline-block;
+}
+
+#derecha {
+    float: left;
+    background: #C4BACF;
+    width: 35%;
+    margin-left: 30px;
 }
