@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicio 02 CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        p, span, h1 {
+            font-weight: bold;
+        }
+
+        #primera {
+            background: blue;
+            width: 80%;
+            height: 100px;
+        }
+
+        div p {
+            font-style: italic;
+        }
+
+        .bloque:hover {
+            font-size: 30px;
+        }
+
+        #letra_grande::first-letter {
+            font-size: 35px;
+        }
+
+        a {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="primera"></div>
+
+    <div>
+        <p id="letra_grande">Dentro de este blog podrás encontrar todo lo que pienso
+                sobre
+                muchos temas y noticias de actualidad</p>
+        <p class="bloque">Apple saca al mercado su primer tablet con ruedas. El
+                tablet también tiene un sensor que te persigue por todos
+                lados. No te podrás despegar de él</p>
+    </div>
+
+    <div id="enlaces">
+        <p><a href="http://www.google.com">GOOGLE</a></p>
+        <p><a href="http://www.microsoft.com">MICROSOFT</a></p>
+        <p><a href="http://www.iesciudadjardin.es">IES CIUDAD JARDÍN</a></p>
+        <p><a href="http://www.game.es">TIENDA GAME</a></p>
+    </div>
+    
+</body>
+</html>

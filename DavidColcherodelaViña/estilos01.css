@@ -1,0 +1,94 @@
+* {
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+header, nav, section, article, footer {
+    display: block;
+}
+
+#encabezado, #menu {
+    color: grey;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+section {
+    overflow: hidden;
+}
+
+article {
+    width: 45%;
+    float: left;
+    border: 1px solid grey;
+    margin: 35px;
+    margin-left: 0px;
+    padding: 5px;
+}
+
+article h2 {
+    color: #343a40;
+}
+
+span#titulo {
+    text-align: center;
+    padding: 280px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+span#entrada {
+    text-align: right;
+}
+
+h2 {
+   padding: 10px; 
+}
+
+p {
+    padding: 10px;
+}
+
+#general {
+    width: 70%;
+    margin: 0px auto;
+}
+
+#menu li {
+    margin: 0px;
+    padding: 10px;
+}
+
+#presentacion {
+    background: #343a40;
+    color: white;
+}
+
+#presentacion h2 {
+    font-style: italic;
+    font-size: 30px;
+}
+
+#text_pres {
+    position: relative;
+    width: 40%;
+    padding: 20px;
+}
+
+#apple {
+    color: blue;
+    font-weight: bold;
+}
+
+#linux {
+ color: green;
+ font-weight: bold;
+}
