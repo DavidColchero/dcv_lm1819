@@ -14,8 +14,13 @@ header, nav, section, article, aside, footer {
 
 article {
     background: #FFBA90;
-    width: 60%;
+    width: 70%;
     float: left;
+}
+
+article #pie {
+    background: #f9b68b;
+    border: 1px solid #8B463C;
 }
 
 article h2 {
@@ -50,6 +55,7 @@ article p {
 #cabecera h1 {
     font-weight: normal;
     color: #880015;
+    padding: 5px;
 }
 
 #cabecera p {
@@ -97,7 +103,7 @@ article p {
 #derecha {
     float: left;
     background: #C4BACF;
-    width: 35%;
+    width: 25%;
     margin-left: 30px;
     padding: 0px;
 }
@@ -113,6 +119,7 @@ article p {
 
 #derecha h3 {
     padding: 5px;
+    color: #595959;
 }
 
 #encabezado {
