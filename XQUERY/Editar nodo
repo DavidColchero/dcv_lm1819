@@ -1,0 +1,5 @@
+replace value of node //Bailes/baile[@id=6]/profesor
+with "Profeeeeee"
+,
+replace value of node //Bailes/baile[@id=6]/plazas
+with 20000

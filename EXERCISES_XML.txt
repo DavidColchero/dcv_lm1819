@@ -1,0 +1,16 @@
+-- Obtener todos los titulos de los libros del fichero Biblioteca.xml
+
+for $b in //biblioteca/libros/libro
+let $n:=$b/titulo
+return $n
+
+========================================
+
+-- Obtener todos los titulos de los libros del fichero Biblioteca.xml junto con los autores de cada libro.
+
+for $lib in //biblioteca/libros/libro
+return ($lib/titulo, $lib/autor)
+
+===========================================
+
+-- Obtener una

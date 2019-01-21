@@ -1,0 +1,19 @@
+Mostrar los libros cuyo precio sea menor o igual a 30
+
+Mostrar el titulo y el autor de los libros del año 2005 y etuiquetar cada uno con lib 2005.
+
+Mostrar los libros ordenados primero por categoria y luego por titulo en una sola consulta.
+
+Mostrar cuántos libros hay, y etiquetarlos con total.
+
+Mostrar los titulos de los libros y al final una etiqueta que ponga total de libros.
+
+Mostrar el precio mínimo y el máximo de los libros.
+
+=============================================
+
+- Mostrar el título y el número de autores que tiene
+	cada libro en etiquetas diferentes
+
+- Mostrar cad uno de los precios de los libros, y
+	al final una nueva etiqueta con la suma de los precios (Función sum())
