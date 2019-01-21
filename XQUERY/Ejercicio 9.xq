@@ -1,11 +1,7 @@
-for $titulo in //bookstore/book/title
-let $autor:=(
-  for $libros in //bookstore/book/title
-  let $num_author:=count(//bookstore/book/author)
-  return $num_author
-)
+for $libros in //bookstore/book
+let $cuantos:=count(//$libros/author)
 return
-  <libros>
-    <titulo>{$titulo/text()}</titulo>
-    <num_autores>{$autor}</num_autores>
-  </libros>
+<libro>
+  <titulo>{$libros/title/text()}</titulo>
+  <num_aut>{$cuantos}</num_aut>
+</libro>

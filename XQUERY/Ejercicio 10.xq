@@ -1,7 +1,6 @@
-for $libro in //bookstore/book
-let $precio:=//bookstore/price
+let $precios:=//bookstore/book/price, $sumaprecios:=sum($precios)
 return
-<libros>
-  <titulo>{$libro/title/text()}</titulo>
-  <precio>{$precio}</precio>
-</libros>
+  <listaPrecios>
+    {$precios}
+    <precioTotal>{$sumaprecios}</precioTotal>
+  </listaPrecios>
