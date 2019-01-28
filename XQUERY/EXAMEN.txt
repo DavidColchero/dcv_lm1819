@@ -1,0 +1,22 @@
+
+1. for $pedido in //pedidos/pedido
+   where $pedido/cantidad>10
+   order by $pedido/fecha
+
+   return $pedido
+
+=========================================
+
+2. for $pedido in //pedidos/pedido
+   where $pedido/cantidad<=20
+
+   return
+     <pedido>
+       {$pedido/descripcion}
+       {$pedido/tipo}
+       {$pedido/cantidad}
+     </pedido>
+
+=========================================
+
+3. 
