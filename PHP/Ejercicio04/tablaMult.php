@@ -21,7 +21,7 @@
             print "<div class='tablas'>";
             for ($j=1; $j <= 10; $j++) { 
                 $resultado = $i*$j;
-                print $i . "x" . $j . "=" . $resultado;
+                print $i . " x " . $j . " = " . $resultado . "<br/>";
             }
             print "</div>";
         }
