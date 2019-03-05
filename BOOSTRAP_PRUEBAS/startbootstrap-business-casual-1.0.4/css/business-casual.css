@@ -7,6 +7,8 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background: url('./img/aa.jpg') no-repeat center center fixed;
+    /*background-color: #D8D8D8;*/
+    background-color: #FF9797;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -123,7 +125,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #8355FD;
+        color: #FFF;
     }
 
     .top-divider {
@@ -144,8 +146,9 @@ footer p {
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
+        font-weight: bold;
         letter-spacing: 3px;
-        color: #FB2D15;
+        color: #00B7EB;
     }
 
     .navbar {
