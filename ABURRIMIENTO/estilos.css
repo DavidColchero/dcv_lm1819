@@ -1,11 +1,17 @@
-* {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-.cuadrado {
-    margin: 5px;
-    width: 200px;
-    height: 200px;
-    background: red;
-    float: left;
+.caja_audio {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #848EFF;
+    display: table;
+    border-radius: 20px 20px 20px 20px;
+}
+
+div.caja_audio:hover {
+    background-color: #B5BBFF;
 }
