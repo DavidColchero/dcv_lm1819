@@ -11,7 +11,7 @@
     <div class="container">
 
     <?php
-        $conexion = mysqli_connect("localhost", "root", "root", "cursophp") or die("Problemas de conexión");
+        $conexion = mysqli_connect("localhost", "lm_1819", "Kilobyte1", "cursophp") or die("Problemas de conexión");
         $registros = mysqli_query($conexion, "SELECT alu.idAlumno, alu.nombre, alu.mail, cur.nombreCurso
             from alumnos as alu inner join cursos as cur on alu.codigocurso = cur.idCurso")
             or die("Problemas en la consulta:".mysqli_error($conexion));
