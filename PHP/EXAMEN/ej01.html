@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <title>Ejercico 01</title>
+    </head>
+    <body>
+        <div class="container">
+            <!--Realice el siguiente programa. Cree un formulario para calcular
+                el área y el perímetro de un rectángulo. En el formulario principal
+                deben aparecer dos cajas de texto para indicar la base y la altura
+                del rectángulo. Además, añadir un radiobutton para indicar si lo que queremos
+                calcular es el área o el perímetro. Cuando se pulse en el botón “Calcular” debe
+                mostrar el resultado en la siguiente pantalla.-->
+
+            <form action="calcular01.php">
+                <table>
+                    <tr>
+                        <td><label for="base">Base: </label></td>
+                        <td><input type="text" name="base" id="base"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="altura">Altura: </label></td>
+                        <td><input type="text" name="altura" id="altura"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="radio" name="tipo" id="tipo" value="area" checked> Área</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="radio" name="tipo" id="tipo" value="perimetro"> Perímetro</td>
+                    </tr>
+                </table>
+
+                <input type="submit" value="Calcular">
+            </form>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
