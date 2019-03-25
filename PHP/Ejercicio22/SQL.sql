@@ -18,3 +18,7 @@ idUbicacion INT,
 PRIMARY KEY (idOrdenador),
 CONSTRAINT fk_ubicaciones FOREIGN KEY (idUbicacion) REFERENCES UBICACIONES (idUbicacion)
 );
+
+INSERT INTO ORDENADORES(Marca, Procesador, Memoria, Perifericos, Precio, Fecha_compra, idUbicacion) VALUES ('Asus', 'Intel Core i7', '16', '1', '650', '2017/05/16', '1');
+INSERT INTO ORDENADORES(Marca, Procesador, Memoria, Perifericos, Precio, Fecha_compra, idUbicacion) VALUES ('MSI', 'Intel Core i5', '8', '0', '450', '2017/05/16', '1');
+INSERT INTO ORDENADORES(Marca, Procesador, Memoria, Perifericos, Precio, Fecha_compra, idUbicacion) VALUES ('Gigabyte', 'Intel Core i3', '4', '1', '350', '2017/05/16', '1');
