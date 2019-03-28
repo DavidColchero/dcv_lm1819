@@ -39,14 +39,14 @@
                     $reg_prov = mysqli_fetch_array($registros_prov);
 
                     while ($reg_prod = mysqli_fetch_array($registros_prod)) {
-                        print '
+                        print "
                         <tr>
-                            <th scope="row">' . $reg_prod['idProductos'] . '</td>
-                            <td>' . $reg_prod['descripcion'] . '</td>
-                            <td>' . $reg_prod['cantidad'] . '</td>
-                            <td>' . $reg_prod['precio'] . '</td>
-                            <td>' . $reg_prov['nombre'] . '</td>
-                        </tr>';
+                            <th scope='row'>$reg_prod[idProductos]</td>
+                            <td>$reg_prod[descripcion]</td>
+                            <td>$reg_prod[cantidad]</td>
+                            <td>$reg_prod[precio]</td>
+                            <td>$reg_prov[nombre]</td>
+                        </tr>";
                     }
                 ?>
             </table>
