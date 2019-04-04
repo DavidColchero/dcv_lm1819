@@ -30,6 +30,7 @@
                         <tr>
                             <td><label for="tipo_medida">Tipo medida: </label></td>
                             <td><select class="form-control" name="tipo_medida" id="tipo_medida">
+                                    <option value="0" selected>--- Selecciona ---</option>
                                     <option value="1">Prueba 1</option>
                                     <option value="2">Prueba 2</option>
                                 </select></td>
@@ -44,8 +45,13 @@
 
                 <div class="submit">
                     <input class="btn btn-primary btn-lg active" type="submit" value="Buscar">
-                </div>
             </form>
+            <br>
+            <br>
+                    <form action="index.php">
+                        <input class="btn btn-primary btn-lg active" type="submit" value="Consulta">
+                    </form>
+                </div>
         </div>
 
         <!-- Optional JavaScript -->
