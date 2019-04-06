@@ -31,8 +31,18 @@
                             <td><label for="tipo_medida">Tipo medida: </label></td>
                             <td><select class="form-control" name="tipo_medida" id="tipo_medida">
                                     <option value="0" selected>--- Selecciona ---</option>
-                                    <option value="1">Prueba 1</option>
-                                    <option value="2">Prueba 2</option>
+                                    <?php
+                                        $conexion = mysqli_connect("localhost", "gbd_1819", "Kilobyte1", "estacion")
+                                            or die("Problemas de conexión.");
+
+                                        $registros = mysqli_query($conexion, "SELECT idCurso, nombreCurso FROM cursos")
+                                            or die("Problemas en el select." . msqli_error($conexion));
+
+                                        while ($reg = mysqli_fetch_array($registros)) {
+                                            echo "<option value='$reg[idCurso]'>$reg[nombreCurso]</option>";
+                                        }
+                            
+                                    ?>
                                 </select></td>
                         </tr>
 
