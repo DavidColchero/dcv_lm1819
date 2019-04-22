@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8">
+<?xml-stylesheet type="text/xsl" href="show_book.xsl"?>
+<!DOCTYPE catalog SYSTEM "catalog.dtd">
+
+<instituto>
+    <trabajadores>
+        <trabajador>
+            <id>01</id>
+            <nombre>Paco</nombre>
+            <apellidos>González</apellidos>
+            <departamento>11</departamento>
+        </trabajador>
+
+        <trabajador>
+            <id>02</id>
+            <nombre>Marina</nombre>
+            <apellidos>Sánchez</apellidos>
+            <departamento>13</departamento>
+        </trabajador>
+    </trabajadores>
+
+    <profesores>
+        <profesor>
+            <id>11</id>
+            <nombre>Antonio</nombre>
+            <apellidos>Morales</apellidos>
+            <asignatura>Biología</asignatura>
+        </profesor>
+
+        <profesor>
+            <id>12</id>
+            <nombre>Javier</nombre>
+            <apellidos>Ruano</apellidos>
+            <asignatura>LM</asignatura>
+        </profesor>
+    </profesores>
+
+    <alumnos>
+        <alumno>
+            <id>21</id>
+            <nombre>Adrián</nombre>
+            <apellidos>Chacón</apellidos>
+            <aula>30</aula>
+        </alumno>
+
+        <alumno>
+            <id>22</id>
+            <nombre>Manuel</nombre>
+            <apellidos>Jaramillo</apellidos>
+            <aula>30</aula>
+        </alumno>
+    </alumnos>
+</instituto>
+
+
+<biblioteca>
+    <libros>
+        <libro prestado="S">
+            <id>01</id>
+            <titulo>En busca del tiempo perdido</titulo>
+            <autor>Marcel Proust</autor>
+            <publicacion>1913</publicacion>
+        </libro>
+
+        <libro prestado="N">
+            <id>02</id>
+            <titulo>Don Quijote de la Mancha</titulo>
+            <autor>Miguel de Cervantes</autor>
+            <publicacion>1605</publicacion>
+        </libro>
+
+        <libro prestado="N">
+            <id>03</id>
+            <titulo>Ulises</titulo>
+            <autor>James Joyce</autor>
+            <publicacion>1918</publicacion>
+        </libro>
+
+        <libro prestado="S">
+            <id>04</id>
+            <titulo>El gran Gatsby</titulo>
+            <autor>F. Scott Fitzgerald</autor>
+            <publicacion>10/04/1925</publicacion>
+        </libro>
+    </libros>
+</biblioteca>
