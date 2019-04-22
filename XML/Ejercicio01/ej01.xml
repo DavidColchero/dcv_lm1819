@@ -2,6 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="show_book.xsl"?>
 <!DOCTYPE catalog SYSTEM "catalog.dtd">
 
+<!-- Crea un documento XML bien formado de un instituto que incluya estudiantes, profesores y trabajadores. -->
+
 <instituto>
     <trabajadores>
         <trabajador>
@@ -53,6 +55,9 @@
 </instituto>
 
 
+<!-- Crea un documento XML bien formado sobre una biblioteca. Debe contener atributos que
+    permitan identificar el libro y que registren si están prestados o no. -->
+
 <biblioteca>
     <libros>
         <libro prestado="S">
@@ -84,3 +89,8 @@
         </libro>
     </libros>
 </biblioteca>
+
+
+<!-- Crea un documento XML bien formado que contenga elementos de 2 espacios de nombres distintos
+    (librería y clientes). El xml debe registrar la compra de libros de un cliente. -->
+
