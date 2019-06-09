@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE revista [
+  <!ELEMENT revista (nombre, fecha, articulo+)>
+
+    <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre codigo CDATA #REQUIRED>
+
+    <!ELEMENT fecha (#PCDATA)>
+
+    <!ELEMENT articulo (titulo, autor+, nPalabras, texto)>
+
+      <!ELEMENT titulo (#PCDATA)>
+      
+      <!ELEMENT autor (#PCDATA)>
+      
+      <!ELEMENT nPalabras (#PCDATA)>
+      
+      <!ELEMENT texto (#PCDATA)>
+]>
+
+<revista>
+  <nombre codigo="0954651235">El XML Libre</nombre>
+  <fecha>18-06-2018</fecha>
+  <articulo>
+    <titulo>XML y DTD: una aproximación</titulo>
+    <autor>D. Marcos Ortega</autor>
+    <nPalabras>250</nPalabras>
+    <texto/>
+  </articulo>
+
+  <articulo>
+    <titulo>Los esquemas XML</titulo>
+    <autor>D. Juan Antonio López</autor>
+    <autor>D. Guillermo Cadenas</autor>
+    <nPalabras>500</nPalabras>
+    <texto />
+  </articulo>
+  
+</revista>
